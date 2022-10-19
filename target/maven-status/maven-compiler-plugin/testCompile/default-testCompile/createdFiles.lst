@@ -1,3 +1,7 @@
-apiReports\Reporting.class
-ApiTestCases\TC1_GetUsers.class
 ApiTestCases\TestClass.class
+apiReports\Reporting.class
+ApiTestCases\TC2_GetSingleUser.class
+ApiTestCases\TC4_CreateNewUser.class
+ApiTestCases\TC3_SingleUserNotFound.class
+apiUtililites\RestUtils.class
+ApiTestCases\TC1_GetUsers.class

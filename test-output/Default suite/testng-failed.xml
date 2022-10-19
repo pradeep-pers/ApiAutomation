@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ApiTestCases.TC1_GetUsers">
+      <class name="ApiTestCases.TC4_CreateNewUser">
         <methods>
-          <include name="CheckContentEncoding"/>
           <include name="setup"/>
+          <include name="ChecStatusLine"/>
           <include name="GetUsers"/>
         </methods>
-      </class> <!-- ApiTestCases.TC1_GetUsers -->
+      </class> <!-- ApiTestCases.TC4_CreateNewUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

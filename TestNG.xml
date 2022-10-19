@@ -7,6 +7,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="ApiTestCases.TC1_GetUsers"/>
+      <class name="ApiTestCases.TC2_GetSingleUser"/>
+      <class name="ApiTestCases.TC3_SingleUserNotFound"/>
+      <class name="ApiTestCases.TC4_CreateNewUser"/>
       
      
     </classes>

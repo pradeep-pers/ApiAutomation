@@ -1,53 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="24" passed="24">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5185" started-at="2022-10-19T12:29:06 IST" finished-at="2022-10-19T12:29:11 IST">
+  <suite name="Suite" duration-ms="6714" started-at="2022-10-19T16:49:23 IST" finished-at="2022-10-19T16:49:30 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5185" started-at="2022-10-19T12:29:06 IST" finished-at="2022-10-19T12:29:11 IST">
-      <class name="ApiTestCases.TC1_GetUsers">
-        <test-method status="PASS" signature="setup()[pri:0, instance:ApiTestCases.TC1_GetUsers@11438d26]" name="setup" is-config="true" duration-ms="77" started-at="2022-10-19T12:29:06 IST" finished-at="2022-10-19T12:29:06 IST">
+    <test name="Test" duration-ms="6714" started-at="2022-10-19T16:49:23 IST" finished-at="2022-10-19T16:49:30 IST">
+      <class name="ApiTestCases.TC2_GetSingleUser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ApiTestCases.TC2_GetSingleUser@7a765367]" name="setup" is-config="true" duration-ms="5" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="GetUsers()[pri:0, instance:ApiTestCases.TC1_GetUsers@11438d26]" name="GetUsers" is-config="true" duration-ms="3254" started-at="2022-10-19T12:29:06 IST" finished-at="2022-10-19T12:29:09 IST">
+        <test-method status="PASS" signature="GetUsers()[pri:0, instance:ApiTestCases.TC2_GetSingleUser@7a765367]" name="GetUsers" is-config="true" duration-ms="111" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUsers -->
-        <test-method status="PASS" signature="ChecStatusLine()[pri:0, instance:ApiTestCases.TC1_GetUsers@11438d26]" name="ChecStatusLine" duration-ms="12" started-at="2022-10-19T12:29:09 IST" finished-at="2022-10-19T12:29:09 IST">
+        <test-method status="PASS" signature="ChecStatusLine()[pri:0, instance:ApiTestCases.TC2_GetSingleUser@7a765367]" name="ChecStatusLine" duration-ms="2" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChecStatusLine -->
-        <test-method status="PASS" signature="CheckContentType()[pri:0, instance:ApiTestCases.TC1_GetUsers@11438d26]" name="CheckContentType" duration-ms="3" started-at="2022-10-19T12:29:09 IST" finished-at="2022-10-19T12:29:09 IST">
+        <test-method status="PASS" signature="CheckContentType()[pri:0, instance:ApiTestCases.TC2_GetSingleUser@7a765367]" name="CheckContentType" duration-ms="2" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckContentType -->
-        <test-method status="PASS" signature="CheckResponseBody()[pri:0, instance:ApiTestCases.TC1_GetUsers@11438d26]" name="CheckResponseBody" duration-ms="53" started-at="2022-10-19T12:29:09 IST" finished-at="2022-10-19T12:29:09 IST">
+        <test-method status="PASS" signature="CheckResponseBody()[pri:0, instance:ApiTestCases.TC2_GetSingleUser@7a765367]" name="CheckResponseBody" duration-ms="4" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResponseBody -->
-        <test-method status="PASS" signature="CheckResponseTime()[pri:0, instance:ApiTestCases.TC1_GetUsers@11438d26]" name="CheckResponseTime" duration-ms="6" started-at="2022-10-19T12:29:09 IST" finished-at="2022-10-19T12:29:09 IST">
+        <test-method status="PASS" signature="CheckResponseTime()[pri:0, instance:ApiTestCases.TC2_GetSingleUser@7a765367]" name="CheckResponseTime" duration-ms="4" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResponseTime -->
-        <test-method status="PASS" signature="CheckServerDetails()[pri:0, instance:ApiTestCases.TC1_GetUsers@11438d26]" name="CheckServerDetails" duration-ms="3" started-at="2022-10-19T12:29:09 IST" finished-at="2022-10-19T12:29:09 IST">
+        <test-method status="PASS" signature="CheckServerDetails()[pri:0, instance:ApiTestCases.TC2_GetSingleUser@7a765367]" name="CheckServerDetails" duration-ms="3" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckServerDetails -->
-        <test-method status="PASS" signature="CheckStatusCode()[pri:0, instance:ApiTestCases.TC1_GetUsers@11438d26]" name="CheckStatusCode" duration-ms="3" started-at="2022-10-19T12:29:09 IST" finished-at="2022-10-19T12:29:09 IST">
+        <test-method status="PASS" signature="CheckStatusCode()[pri:0, instance:ApiTestCases.TC2_GetSingleUser@7a765367]" name="CheckStatusCode" duration-ms="3" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckStatusCode -->
-        <test-method status="PASS" signature="CheckTransferEncoding()[pri:0, instance:ApiTestCases.TC1_GetUsers@11438d26]" name="CheckTransferEncoding" duration-ms="2" started-at="2022-10-19T12:29:09 IST" finished-at="2022-10-19T12:29:09 IST">
+        <test-method status="PASS" signature="CheckTransferEncoding()[pri:0, instance:ApiTestCases.TC2_GetSingleUser@7a765367]" name="CheckTransferEncoding" duration-ms="12" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTransferEncoding -->
-        <test-method status="PASS" signature="verifyJsonBodyData()[pri:0, instance:ApiTestCases.TC1_GetUsers@11438d26]" name="verifyJsonBodyData" duration-ms="1471" started-at="2022-10-19T12:29:09 IST" finished-at="2022-10-19T12:29:11 IST">
+        <test-method status="PASS" signature="verifyJsonBodyData()[pri:0, instance:ApiTestCases.TC2_GetSingleUser@7a765367]" name="verifyJsonBodyData" duration-ms="183" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJsonBodyData -->
+      </class> <!-- ApiTestCases.TC2_GetSingleUser -->
+      <class name="ApiTestCases.TC1_GetUsers">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ApiTestCases.TC1_GetUsers@528931cf]" name="setup" is-config="true" duration-ms="68" started-at="2022-10-19T16:49:24 IST" finished-at="2022-10-19T16:49:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GetUsers()[pri:0, instance:ApiTestCases.TC1_GetUsers@528931cf]" name="GetUsers" is-config="true" duration-ms="3405" started-at="2022-10-19T16:49:24 IST" finished-at="2022-10-19T16:49:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUsers -->
+        <test-method status="PASS" signature="ChecStatusLine()[pri:0, instance:ApiTestCases.TC1_GetUsers@528931cf]" name="ChecStatusLine" duration-ms="9" started-at="2022-10-19T16:49:27 IST" finished-at="2022-10-19T16:49:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChecStatusLine -->
+        <test-method status="PASS" signature="CheckContentType()[pri:0, instance:ApiTestCases.TC1_GetUsers@528931cf]" name="CheckContentType" duration-ms="2" started-at="2022-10-19T16:49:27 IST" finished-at="2022-10-19T16:49:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckContentType -->
+        <test-method status="PASS" signature="CheckResponseBody()[pri:0, instance:ApiTestCases.TC1_GetUsers@528931cf]" name="CheckResponseBody" duration-ms="36" started-at="2022-10-19T16:49:27 IST" finished-at="2022-10-19T16:49:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseBody -->
+        <test-method status="PASS" signature="CheckResponseTime()[pri:0, instance:ApiTestCases.TC1_GetUsers@528931cf]" name="CheckResponseTime" duration-ms="5" started-at="2022-10-19T16:49:27 IST" finished-at="2022-10-19T16:49:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseTime -->
+        <test-method status="PASS" signature="CheckServerDetails()[pri:0, instance:ApiTestCases.TC1_GetUsers@528931cf]" name="CheckServerDetails" duration-ms="3" started-at="2022-10-19T16:49:27 IST" finished-at="2022-10-19T16:49:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckServerDetails -->
+        <test-method status="PASS" signature="CheckStatusCode()[pri:0, instance:ApiTestCases.TC1_GetUsers@528931cf]" name="CheckStatusCode" duration-ms="6" started-at="2022-10-19T16:49:27 IST" finished-at="2022-10-19T16:49:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatusCode -->
+        <test-method status="PASS" signature="CheckTransferEncoding()[pri:0, instance:ApiTestCases.TC1_GetUsers@528931cf]" name="CheckTransferEncoding" duration-ms="4" started-at="2022-10-19T16:49:27 IST" finished-at="2022-10-19T16:49:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTransferEncoding -->
+        <test-method status="PASS" signature="verifyJsonBodyData()[pri:0, instance:ApiTestCases.TC1_GetUsers@528931cf]" name="verifyJsonBodyData" duration-ms="1600" started-at="2022-10-19T16:49:27 IST" finished-at="2022-10-19T16:49:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyJsonBodyData -->
       </class> <!-- ApiTestCases.TC1_GetUsers -->
+      <class name="ApiTestCases.TC4_CreateNewUser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@69a3d1d]" name="setup" is-config="true" duration-ms="3" started-at="2022-10-19T16:49:30 IST" finished-at="2022-10-19T16:49:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GetUsers()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@69a3d1d]" name="GetUsers" is-config="true" duration-ms="495" started-at="2022-10-19T16:49:30 IST" finished-at="2022-10-19T16:49:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUsers -->
+        <test-method status="PASS" signature="ChecStatusLine()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@69a3d1d]" name="ChecStatusLine" duration-ms="3" started-at="2022-10-19T16:49:30 IST" finished-at="2022-10-19T16:49:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChecStatusLine -->
+        <test-method status="PASS" signature="CheckContentType()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@69a3d1d]" name="CheckContentType" duration-ms="2" started-at="2022-10-19T16:49:30 IST" finished-at="2022-10-19T16:49:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckContentType -->
+        <test-method status="PASS" signature="CheckResponseBody()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@69a3d1d]" name="CheckResponseBody" duration-ms="3" started-at="2022-10-19T16:49:30 IST" finished-at="2022-10-19T16:49:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseBody -->
+        <test-method status="PASS" signature="CheckResponseTime()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@69a3d1d]" name="CheckResponseTime" duration-ms="2" started-at="2022-10-19T16:49:30 IST" finished-at="2022-10-19T16:49:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseTime -->
+        <test-method status="PASS" signature="CheckServerDetails()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@69a3d1d]" name="CheckServerDetails" duration-ms="1" started-at="2022-10-19T16:49:30 IST" finished-at="2022-10-19T16:49:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckServerDetails -->
+        <test-method status="PASS" signature="CheckStatusCode()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@69a3d1d]" name="CheckStatusCode" duration-ms="1" started-at="2022-10-19T16:49:30 IST" finished-at="2022-10-19T16:49:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatusCode -->
+      </class> <!-- ApiTestCases.TC4_CreateNewUser -->
+      <class name="ApiTestCases.TC3_SingleUserNotFound">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ApiTestCases.TC3_SingleUserNotFound@17d677df]" name="setup" is-config="true" duration-ms="4" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GetUsers()[pri:0, instance:ApiTestCases.TC3_SingleUserNotFound@17d677df]" name="GetUsers" is-config="true" duration-ms="419" started-at="2022-10-19T16:49:29 IST" finished-at="2022-10-19T16:49:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUsers -->
+        <test-method status="PASS" signature="CheckResponseBody()[pri:0, instance:ApiTestCases.TC3_SingleUserNotFound@17d677df]" name="CheckResponseBody" duration-ms="3" started-at="2022-10-19T16:49:30 IST" finished-at="2022-10-19T16:49:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseBody -->
+        <test-method status="PASS" signature="CheckStatusCode()[pri:0, instance:ApiTestCases.TC3_SingleUserNotFound@17d677df]" name="CheckStatusCode" duration-ms="1" started-at="2022-10-19T16:49:30 IST" finished-at="2022-10-19T16:49:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatusCode -->
+      </class> <!-- ApiTestCases.TC3_SingleUserNotFound -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
