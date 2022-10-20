@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3765" started-at="2022-10-19T16:45:21 IST" finished-at="2022-10-19T16:45:25 IST">
+  <suite name="Default suite" duration-ms="5371" started-at="2022-10-20T19:18:00 IST" finished-at="2022-10-20T19:18:05 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3765" started-at="2022-10-19T16:45:21 IST" finished-at="2022-10-19T16:45:25 IST">
-      <class name="ApiTestCases.TC4_CreateNewUser">
-        <test-method status="PASS" signature="setup()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@4d3167f4]" name="setup" is-config="true" duration-ms="137" started-at="2022-10-19T16:45:22 IST" finished-at="2022-10-19T16:45:22 IST">
+    <test name="Default test" duration-ms="5371" started-at="2022-10-20T19:18:00 IST" finished-at="2022-10-20T19:18:05 IST">
+      <class name="ApiTestCases.TC6_PostRegisterUnsuccessfull">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ApiTestCases.TC6_PostRegisterUnsuccessfull@a38d7a3]" name="setup" is-config="true" duration-ms="127" started-at="2022-10-20T19:18:00 IST" finished-at="2022-10-20T19:18:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="GetUsers()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@4d3167f4]" name="GetUsers" is-config="true" duration-ms="3460" started-at="2022-10-19T16:45:22 IST" finished-at="2022-10-19T16:45:25 IST">
+        <test-method status="PASS" signature="RegisterUnsucessfull()[pri:0, instance:ApiTestCases.TC6_PostRegisterUnsuccessfull@a38d7a3]" name="RegisterUnsucessfull" is-config="true" duration-ms="3655" started-at="2022-10-20T19:18:00 IST" finished-at="2022-10-20T19:18:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetUsers -->
-        <test-method status="PASS" signature="ChecStatusLine()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@4d3167f4]" name="ChecStatusLine" duration-ms="17" started-at="2022-10-19T16:45:25 IST" finished-at="2022-10-19T16:45:25 IST">
+        </test-method> <!-- RegisterUnsucessfull -->
+        <test-method status="PASS" signature="ChecStatusLine()[pri:0, instance:ApiTestCases.TC6_PostRegisterUnsuccessfull@a38d7a3]" name="ChecStatusLine" duration-ms="17" started-at="2022-10-20T19:18:04 IST" finished-at="2022-10-20T19:18:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChecStatusLine -->
-        <test-method status="PASS" signature="CheckContentType()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@4d3167f4]" name="CheckContentType" duration-ms="5" started-at="2022-10-19T16:45:25 IST" finished-at="2022-10-19T16:45:25 IST">
+        <test-method status="PASS" signature="CheckContentType()[pri:0, instance:ApiTestCases.TC6_PostRegisterUnsuccessfull@a38d7a3]" name="CheckContentType" duration-ms="4" started-at="2022-10-20T19:18:04 IST" finished-at="2022-10-20T19:18:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckContentType -->
-        <test-method status="PASS" signature="CheckResponseBody()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@4d3167f4]" name="CheckResponseBody" duration-ms="48" started-at="2022-10-19T16:45:25 IST" finished-at="2022-10-19T16:45:25 IST">
+        <test-method status="PASS" signature="CheckResponseBody()[pri:0, instance:ApiTestCases.TC6_PostRegisterUnsuccessfull@a38d7a3]" name="CheckResponseBody" duration-ms="58" started-at="2022-10-20T19:18:04 IST" finished-at="2022-10-20T19:18:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResponseBody -->
-        <test-method status="PASS" signature="CheckResponseTime()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@4d3167f4]" name="CheckResponseTime" duration-ms="8" started-at="2022-10-19T16:45:25 IST" finished-at="2022-10-19T16:45:25 IST">
+        <test-method status="PASS" signature="CheckResponseTime()[pri:0, instance:ApiTestCases.TC6_PostRegisterUnsuccessfull@a38d7a3]" name="CheckResponseTime" duration-ms="6" started-at="2022-10-20T19:18:04 IST" finished-at="2022-10-20T19:18:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResponseTime -->
-        <test-method status="PASS" signature="CheckServerDetails()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@4d3167f4]" name="CheckServerDetails" duration-ms="5" started-at="2022-10-19T16:45:25 IST" finished-at="2022-10-19T16:45:25 IST">
+        <test-method status="PASS" signature="CheckServerDetails()[pri:0, instance:ApiTestCases.TC6_PostRegisterUnsuccessfull@a38d7a3]" name="CheckServerDetails" duration-ms="3" started-at="2022-10-20T19:18:04 IST" finished-at="2022-10-20T19:18:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckServerDetails -->
-        <test-method status="PASS" signature="CheckStatusCode()[pri:0, instance:ApiTestCases.TC4_CreateNewUser@4d3167f4]" name="CheckStatusCode" duration-ms="4" started-at="2022-10-19T16:45:25 IST" finished-at="2022-10-19T16:45:25 IST">
+        <test-method status="PASS" signature="CheckStatusCode()[pri:0, instance:ApiTestCases.TC6_PostRegisterUnsuccessfull@a38d7a3]" name="CheckStatusCode" duration-ms="4" started-at="2022-10-20T19:18:04 IST" finished-at="2022-10-20T19:18:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckStatusCode -->
-      </class> <!-- ApiTestCases.TC4_CreateNewUser -->
+        <test-method status="PASS" signature="verifyJsonBodyData()[pri:0, instance:ApiTestCases.TC6_PostRegisterUnsuccessfull@a38d7a3]" name="verifyJsonBodyData" duration-ms="1410" started-at="2022-10-20T19:18:04 IST" finished-at="2022-10-20T19:18:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJsonBodyData -->
+      </class> <!-- ApiTestCases.TC6_PostRegisterUnsuccessfull -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

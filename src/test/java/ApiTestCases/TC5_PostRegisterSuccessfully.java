@@ -3,8 +3,6 @@ package ApiTestCases;
 import org.json.simple.JSONObject;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import apiUtililites.RestUtils;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
@@ -12,17 +10,16 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import junit.framework.Assert;
 
-public class TC4_CreateNewUser  extends TestClass{
+public class TC5_PostRegisterSuccessfully  extends TestClass{
 	
 	RequestSpecification httpRequest;
 	Response response;
-	String ename=RestUtils.Name();
-	String ejob=RestUtils.Job();
+	
 	
 	@BeforeClass
-	void GetUsers() throws InterruptedException
+	void UserRegisteredSuccessFully() throws InterruptedException
 	{
-		logger.info("TC4_CreateNewUser Test case to be executed");
+		logger.info("TC5_PostRequest-RegisteredSuccessfully Test case to be executed");
 		
 		RestAssured.baseURI="https://reqres.in/";
 		httpRequest=RestAssured.given();
@@ -30,8 +27,8 @@ public class TC4_CreateNewUser  extends TestClass{
 		// Prepare the payload
 		
 		JSONObject requestparam=new JSONObject();
-		requestparam.put("name", ename);
-		requestparam.put("job", ejob);
+		requestparam.put("email", "eve.holt@reqres.in");
+		requestparam.put("password", "pistol");
 		
 		//Add a header Stating the Request body is JSON
 		
@@ -40,7 +37,7 @@ public class TC4_CreateNewUser  extends TestClass{
 		//Add the JSON to body of the Request
 		
 		httpRequest.body(requestparam.toJSONString());
-		response=httpRequest.request(Method.POST,"/api/users");
+		response=httpRequest.request(Method.POST,"api/register");
 		Thread.sleep(10);
 	}
 	@Test
@@ -58,7 +55,7 @@ public class TC4_CreateNewUser  extends TestClass{
 		logger.info("***CheckingStatusCode*****");
 		int statuscode=response.getStatusCode();
 		logger.info("Status Code==>" +statuscode);
-		Assert.assertEquals(statuscode, 201); 
+		Assert.assertEquals(statuscode, 200); 
 	}
 	@Test
 	void CheckResponseTime()
@@ -85,7 +82,7 @@ public class TC4_CreateNewUser  extends TestClass{
 	        logger.info("***CheckStatusLine*****");
 	 		String statusline=response.statusLine();
 	 		logger.info("Status Line==>" +statusline); 
-	 		Assert.assertEquals(statusline, "HTTP/1.1 201 Created");
+	 		Assert.assertEquals(statusline, "HTTP/1.1 200 OK");
 	 		
 	     }
 	  
@@ -100,14 +97,22 @@ public class TC4_CreateNewUser  extends TestClass{
 	 		Assert.assertEquals(ServerDetails, "cloudflare"); 
 	     }
        
+	  @Test
+	  void verifyJsonBodyData()
+	  {
+		  JsonPath JsonPathEvalutor=response.jsonPath();
+			
+		  logger.info("** Verify the Data in Json Response*****");
+		  
+		  int ID=JsonPathEvalutor.get("id");
+		  logger.info("The New ID==>" +ID);
+		  Assert.assertEquals(ID, 4); 
+		  
+		  String Token=JsonPathEvalutor.get("token");
+		  logger.info("Token of the Response==>" +Token);
+		  Assert.assertEquals(Token, "QpwL5tke4Pnpja7X4");
 	 
 	  }
 	  
-	 
-	  
-	  
-	  
 
-
-
-
+}
