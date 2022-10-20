@@ -10,6 +10,8 @@
       <class name="ApiTestCases.TC2_GetSingleUser"/>
       <class name="ApiTestCases.TC3_SingleUserNotFound"/>
       <class name="ApiTestCases.TC4_CreateNewUser"/>
+      <class name="ApiTestCases.TC5_PostRegisterSuccessfully"/>
+      <class name="ApiTestCases.TC6_PostRegisterUnsuccessfull"/>
       
      
     </classes>
