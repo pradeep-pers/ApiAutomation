@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ApiTestCases.TC6_PostRegisterUnsuccessfull">
+      <class name="ApiTestCases.TC12_GetSingleResource">
         <methods>
-          <include name="RegisterUnsucessfull"/>
           <include name="setup"/>
-          <include name="ChecStatusLine"/>
+          <include name="verifyJsonBodyData"/>
+          <include name="GetLISTofUsers"/>
         </methods>
-      </class> <!-- ApiTestCases.TC6_PostRegisterUnsuccessfull -->
+      </class> <!-- ApiTestCases.TC12_GetSingleResource -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,7 +1,13 @@
-E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TestClass.java
 E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TC3_SingleUserNotFound.java
-E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TC4_CreateNewUser.java
+E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TC6_PostRegisterUnsuccessfull.java
+E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TC8_PatchRequest.java
 E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TC1_GetUsers.java
+E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TC9_Post_LoginSuccessfully.java
+E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TC5_PostRegisterSuccessfully.java
 E:\Photo-Framework\API-Automation\src\test\java\apiUtililites\RestUtils.java
-E:\Photo-Framework\API-Automation\src\test\java\apiReports\Reporting.java
 E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TC2_GetSingleUser.java
+E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TestClass.java
+E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TC4_CreateNewUser.java
+E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TC7_PutRequestForUpdate.java
+E:\Photo-Framework\API-Automation\src\test\java\ApiTestCases\TC10_POSTRequest_LoginUnsuccess.java
+E:\Photo-Framework\API-Automation\src\test\java\apiReports\Reporting.java
