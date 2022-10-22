@@ -13,9 +13,11 @@
       <class name="ApiTestCases.TC5_PostRegisterSuccessfully"/>
       <class name="ApiTestCases.TC6_PostRegisterUnsuccessfull"/>
        <class name="ApiTestCases.TC7_PutRequestForUpdate"/>
-        <class name="ApiTestCases.TC8_PatchRequest"/>
-         <class name="ApiTestCases.TC9_Post_LoginSuccessfully"/>
-          <class name="ApiTestCases.TC10_POSTRequest_LoginUnsuccess"/>
+       <class name="ApiTestCases.TC8_PatchRequest"/>
+       <class name="ApiTestCases.TC9_Post_LoginSuccessfully"/>
+       <class name="ApiTestCases.TC10_POSTRequest_LoginUnsuccess"/>
+       <class name="ApiTestCases.TC11_GetListResource"/>
+       <class name="ApiTestCases.TC12_GetSingleResource"/>
       
      
     </classes>
